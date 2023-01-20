@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BuilderWeb.props" />
+</Project>
