@@ -10,8 +10,7 @@ html {
 
 html {
   height: fit-content;
-  padding: 0%;
-  max-block-size: 0%;
+  resize: both;
 }
 
 body {
@@ -21,5 +20,4 @@ body {
     background-position: center;
     background-size: cover;
     margin-bottom: auto;
-    padding: 0%;
 }
