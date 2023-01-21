@@ -1,9 +1,12 @@
-﻿.wrappertitle {
+﻿.wrapper{
+    resize: both;
+}
+
+.wrappertitle {
     color: white;
     text-shadow: 3px 2px 10px #93B3FD;
     text-align: center;
     font-family: 'Comic Sans MS';
-    resize: both;
 }
 
 .wrappertxt {
