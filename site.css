@@ -11,14 +11,14 @@ html {
 html {
   height: fit-content;
   resize: both;
-  position: static;
 }
 
 body {
-    background-image: url(https://i.ibb.co/7pVHjYj/Blurred.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    margin-bottom: auto;
+  position: relative;
+  background-image: url(https://i.ibb.co/7pVHjYj/Blurred.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: auto;
 }
