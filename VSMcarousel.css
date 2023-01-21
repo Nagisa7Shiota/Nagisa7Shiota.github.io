@@ -1,0 +1,47 @@
+﻿.VSMcarousel {
+    position: relative;
+    width: 445px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.carousel_video {
+    width: 445px;
+    height: 250px;
+}
+
+.carousel_image {
+    position: absolute;
+    transform: translateY(35%);
+    width: 225px;
+    height: 150px;
+}
+
+.carousel_imageright{
+    right: -350px;
+}
+
+.carousel_imageleft{
+    left: -350px;
+}
+
+.carousel_button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.carousel_button img{
+    width: 50px;
+}
+
+.carousel_button_right{
+    right: -100px;
+}
+
+.carousel_button_left {
+    left: -100px;
+}
