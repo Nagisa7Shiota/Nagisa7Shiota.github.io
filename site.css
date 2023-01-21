@@ -9,7 +9,7 @@ html {
 }
 
 html {
-  max-width: 100%;
+  height: fit-content;
 }
 
 body {
