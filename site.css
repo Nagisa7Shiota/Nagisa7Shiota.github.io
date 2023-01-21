@@ -21,4 +21,5 @@ body {
     background-size:cover;
     margin: auto;
     margin-bottom: auto;
+    margin-trim: all;
 }
