@@ -11,7 +11,7 @@ html {
 html {
   height: fit-content;
   resize: both;
-  background-position: center;
+  position: static;
 }
 
 body {
