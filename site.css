@@ -15,6 +15,7 @@ html {
 
 body {
   position: relative;
+  resize: both;
   background-image: url(https://i.ibb.co/7pVHjYj/Blurred.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
