@@ -11,6 +11,7 @@ html {
 html {
   height: fit-content;
   padding: 0%;
+  max-block-size: 0%;
 }
 
 body {
