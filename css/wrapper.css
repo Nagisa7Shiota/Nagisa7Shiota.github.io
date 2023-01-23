@@ -25,7 +25,7 @@
     position: relative;
     right: -65vw;
     width: 15vw;
-    height: 16vw;
+    height: 16vh;
 }
 
 @keyframes spin{
@@ -48,7 +48,7 @@
 
     to 
     {
-        transform: translateY(0vw);
+        transform: translateY(0vh);
     }
 }
 
