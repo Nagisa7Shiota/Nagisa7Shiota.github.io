@@ -23,7 +23,9 @@
 
 .wrapperwm {
     position: relative;
-    right: -400%;
+    right: -65vw;
+    width: 15vw;
+    height: 16vw;
 }
 
 @keyframes spin{
@@ -46,7 +48,7 @@
 
     to 
     {
-        transform: translateY(0px);
+        transform: translateY(0vw);
     }
 }
 
