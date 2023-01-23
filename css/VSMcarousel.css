@@ -1,40 +1,41 @@
 ﻿.carousel_video {
     width: 25vw;
     height: 14vw;
+    position: relative;
+    left: -15.5vw;
 }
 
 .carousel_image {
-    position: absolute;
-    transform: translateY(35%);
-    width: 225px;
-    height: 150px;
+    position: relative;
+    transform: translateY(-2vw);
+    width: 15vw;
+    height: 10vw;
 }
 
 .carousel_imageright{
-    right: -350px;
+    right: -50vw;
 }
 
 .carousel_imageleft{
-    left: -350px;
+    left: -25vw;
 }
 
 .carousel_button{
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(5vw);
     background-color: transparent;
     border: 0;
     cursor: pointer;
 }
 
 .carousel_button img{
-    width: 50px;
+    width: 5vw;
 }
 
 .carousel_button_right{
-    right: -100px;
+    right: 30vw;
 }
 
 .carousel_button_left {
-    left: -100px;
+    left: 30vw;
 }
