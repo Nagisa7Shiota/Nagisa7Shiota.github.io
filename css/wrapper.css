@@ -24,8 +24,8 @@
 .wrapperwm {
     position: relative;
     right: -65vw;
-    width: 15vw;
-    height: 16vh;
+    width: 12vw;
+    height: 25vh;
 }
 
 @keyframes spin{
