@@ -3,20 +3,32 @@ body {
   background-image: url(https://i.ibb.co/7pVHjYj/Blurred.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
   background-size: 100%;
+}
+
+form
+{
+  height: 100%;
 }
 
 .navbar
 {
   background-color:black;
   size: 20%;
-  
 }
 
 .navbarimg
 {
   width: 10%;
   height: 15%;
+}
 
+.footer
+{
+  background-color: black;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  bottom: 0%;
+  position: fixed;
+  width: 100%;
 }
