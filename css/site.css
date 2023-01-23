@@ -3,36 +3,20 @@ body {
   background-image: url(https://i.ibb.co/7pVHjYj/Blurred.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%
+  background-size: 100%;
 }
 
-@media screen and (orientation: portrait) {
-  html {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    height: 100vw;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
-}
-
-.navbar
-{
-  background-color:black;
+.navbar {
+  background-color: black;
   height: 5vh;
 }
 
-.navbarimg
-{
+.navbarimg {
   width: 5vw;
   height: 4vh;
 }
 
-.footer
-{
+.footer {
   background-color: black;
   color: white;
   font-family: 'Times New Roman', Times, serif;
