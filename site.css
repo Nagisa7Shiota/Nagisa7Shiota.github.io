@@ -1,9 +1,14 @@
 body {
-  margin: 0%;
+  margin: 0vw;
   background-image: url(https://i.ibb.co/7pVHjYj/Blurred.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: 100vw;
+  size: 100vw
+}
+
+html{
+  size: 100vw;
 }
 
 .navbar
@@ -24,7 +29,7 @@ body {
   color: white;
   font-family: 'Times New Roman', Times, serif;
   font-size: 0.9vw;
-  bottom: 0%;
+  bottom: 0vw;
   width: 100%;
   height: 2vw;
 }

@@ -1,13 +1,6 @@
-﻿.VSMcarousel {
-    position: relative;
-    width: 445px;
-    height: 250px;
-    margin: 0 auto;
-}
-
-.carousel_video {
-    width: 445px;
-    height: 250px;
+﻿.carousel_video {
+    width: 25vw;
+    height: 14vw;
 }
 
 .carousel_image {
