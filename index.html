@@ -12,84 +12,81 @@
     <link rel="stylesheet" href="site.css" asp-append-version="true" />
 </head>
 
-<body onload="CurrentSlide()">
-    <header>
-        <nav>
-            <a href="Privacy.html">
-                <img src="https://i.ibb.co/27HWFzk/2465517595f5ea9f225d52ed73a4d0db.png"/>
-            </a>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            <!--Scriptapple A-->
-            <script src="carouselVSM.js"></script>
-            <script src="jquery.min.js"></script>
-            <!--Scriptapple E-->
+<header>
+    <nav class="navbar">
+        <a href="index.html">
+            <img class="navbarimg" src="https://i.ibb.co/27HWFzk/2465517595f5ea9f225d52ed73a4d0db.png"/>
+        </a>
+    </nav>
+</header>
 
-            <!--Wrapper of the webiste A-->
-            <div class="wrapper">
-                <div class="wrappertitle">
-                    <h1 class="display-4">Welcome Traveler</h1>
-                </div>
-                <br />
-                <div class="wrapperhover">
-                    <img class="wrapperwm wrapperrotate" src="https://i.ibb.co/ZY5JhbP/R.png" />
-                </div>
-                <article class="wrappertxt wrapperstory">
-                    <!--A lot of text here and maybe some imgs as BG or inside-->
-                    "You and Paimon found a miraculous map on the ground.<br />
-                    After you touched it with your third wish, something<br />
-                    very strange appeared in Inazuma.<br />
-                    Go! Your friends in Inazuma need your help!"<br />
-                </article>
-                <br />
-                <article class="wrappertxt wrapperinfo">
-                    Welcome to this website for the Genshin Impact Event!<br />
-                    Here you can find the latest videos for the event and<br />
-                    here you can create your Adventure License from the<br />
-                    Adventure Guild in Inazuma!<br />
-                </article>
-            </div>
-            <!--Wrapper of the webiste E-->
-            <br />
-            <!--VSM of the website A-->
-            <div>
-                <h1 class="wrappertitle display-4">Videos & Social Media</h1>
-                <br />
-                <!--Videokarusell & Linkbuttons-->
-                <center>
-                    <div class="VSMcarousel">
-                        <button onclick="SlideToRight()" class="carousel_button carousel_button_right">
-                            <img src="https://i.ibb.co/zFp87r7/right-arrow.png" />
-                        </button>
-                        <button onclick="SlideToLeft()" class="carousel_button carousel_button_left">
-                            <img src="https://i.ibb.co/GkcVQsQ/left-arrow.png" />
-                        </button>
-                        <div class="carousel_track-container">
-                            <img id="VSM1" class="carousel_image carousel_imageright" src="" />
-                            <img id="VSM2" class="carousel_image carousel_imageleft" src="" />
-                            <iframe id="VSM0" class="carousel_video" src=""></iframe>
-                        </div>
-                    </div>
-                    <div class="social-media">
-                        <a href="https://youtube.com">
-                            <img class="social-media-link" src="https://i.ibb.co/K7TLzwF/youtube-PNG102354.png" />
-                        </a>
-                    </div>
-                </center>
-            </div>
-            <!--VSM of the website E-->
-            <br />
-            <!--AS of the website A-->
-            <div>
-                <h1 class="wrappertitle display-4">Adventure License</h1>
-                <br />
-                <!--AS Maker-->
-            </div>
-            <!--AS of the website E-->
-        </main>
+<body onload="CurrentSlide()">
+    <!--Scriptapple A-->
+    <script src="carouselVSM.js"></script>
+    <script src="jquery.min.js"></script>
+    <!--Scriptapple E-->
+
+    <!--Wrapper of the webiste A-->
+    <div class="wrapper">
+        <div class="wrappertitle">
+            <h1 class="display-4">Welcome Traveler</h1>
+        </div>
+        <br />
+        <div class="wrapperhover">
+            <img class="wrapperwm wrapperrotate" src="https://i.ibb.co/ZY5JhbP/R.png" />
+        </div>
+        <article class="wrappertxt wrapperstory">
+            <!--A lot of text here and maybe some imgs as BG or inside-->
+            "You and Paimon found a miraculous map on the ground.<br />
+            After you touched it with your third wish, something<br />
+            very strange appeared in Inazuma.<br />
+            Go! Your friends in Inazuma need your help!"<br />
+        </article>
+        <br />
+        <article class="wrappertxt wrapperinfo">
+            Welcome to this website for the Genshin Impact Event!<br />
+            Here you can find the latest videos for the event and<br />
+            here you can create your Adventure License from the<br />
+            Adventure Guild in Inazuma!<br />
+        </article>
     </div>
+    <!--Wrapper of the webiste E-->
+    <br />
+    <!--VSM of the website A-->
+    <div>
+        <h1 class="wrappertitle display-4">Videos & Social Media</h1>
+        <br />
+        <!--Videokarusell & Linkbuttons-->
+        <center>
+            <div class="VSMcarousel">
+                <button onclick="SlideToRight()" class="carousel_button carousel_button_right">
+                    <img src="https://i.ibb.co/zFp87r7/right-arrow.png" />
+                </button>
+                <button onclick="SlideToLeft()" class="carousel_button carousel_button_left">
+                    <img src="https://i.ibb.co/GkcVQsQ/left-arrow.png" />
+                </button>
+                <div class="carousel_track-container">
+                    <img id="VSM1" class="carousel_image carousel_imageright" src="" />
+                    <img id="VSM2" class="carousel_image carousel_imageleft" src="" />
+                    <iframe id="VSM0" class="carousel_video" src=""></iframe>
+                </div>
+            </div>
+            <div class="social-media">
+                <a href="https://youtube.com">
+                    <img class="social-media-link" src="https://i.ibb.co/K7TLzwF/youtube-PNG102354.png" />
+                </a>
+            </div>
+        </center>
+    </div>
+    <!--VSM of the website E-->
+    <br />
+    <!--AS of the website A-->
+    <div>
+        <h1 class="wrappertitle display-4">Adventure License</h1>
+        <br />
+        <!--AS Maker-->
+    </div>
+    <!--AS of the website E-->
 
     <footer>
         &copy; 2023 - GI-Amino - <a href="Privacy.html">Privacy</a>
