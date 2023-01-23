@@ -1,38 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="mainhtml" lang="de">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GI-Amino - TA Event</title>
     <link rel="icon" type="image/x-icon" href="https://i.ibb.co/4drzXZf/Primogem.webp">
-    <link rel="stylesheet" href="bootstrap.min.css" />
     <link rel="stylesheet" href="VSMcarousel.css" />
     <link rel="stylesheet" href="VSM.css" />
     <link rel="stylesheet" href="wrapper.css" />
     <link rel="stylesheet" href="site.css" asp-append-version="true" />
 </head>
 
-<body onload="CurrentSlide()">
+<body onload="CurrentSlide()" onload="GetWH()">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img id="Logo" src="https://i.ibb.co/27HWFzk/2465517595f5ea9f225d52ed73a4d0db.png" width="50"
-                        height="20" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="Privacy.html">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <nav>
+            <a href="Privacy.html">
+                <img src="https://i.ibb.co/27HWFzk/2465517595f5ea9f225d52ed73a4d0db.png"/>
+            </a>
         </nav>
     </header>
     <div class="container">
@@ -106,10 +91,8 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted navbar-dark bg-dark">
-        <div class="container">
-            &copy; 2023 - GI-Amino - <a href="Privacy.html">Privacy</a>
-        </div>
+    <footer>
+        &copy; 2023 - GI-Amino - <a href="Privacy.html">Privacy</a>
     </footer>
 </body>
 </html>
